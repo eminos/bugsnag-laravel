@@ -40,7 +40,7 @@ jobs:
       matrix:
         php-version: ['8.1']
         laravel-fixture: [laravel-latest]
-        laravel-version: ['9.x-dev' 'dev-master as 9']
+        laravel-version: ['9.x-dev', 'dev-master as 9']
 
     steps:
     - uses: actions/checkout@v2
